@@ -69,13 +69,13 @@ If you want to store the variables next time when you open the environment you h
 
 #### Open the script with nano using command 
 
-nano .bashrc
+`nano .bashrc`
 
 As this is a systme script it is important you do no change any of the existed code. To be safe, scroll to the bottom of the script and add your new code there
 
-Type export Variable=Value 
+Type `export Variable=Value`` 
 to create an environment variable that will be added with this scipt when environment loads
 
-We can use printenv Variable to see if it's there, however currently its not being added. We need to restart the environment or restart the script for it to be added
+We can use `printenv Variable` to see if it's there, however currently its not being added. We need to restart the environment or restart the script for it to be added
 
-We can use source .bashrc to reuse the scirpt and after that our variable will be added
+We can use `source .bashrc` to reuse the scirpt and after that our variable will be added
