@@ -67,7 +67,9 @@ printenv Variable - prints the value of the specific environment variable
 echo $Variable - prints the value of the regular variable
 If you want to store the variables next time when you open the environment you have to add them to the .bashrc script:
 
-Open the script with nano using command nano .bashrc
+#### Open the script with nano using command 
+
+nano .bashrc
 
 As this is a systme script it is important you do no change any of the existed code. To be safe, scroll to the bottom of the script and add your new code there
 
