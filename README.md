@@ -67,34 +67,4 @@ printenv Variable - prints the value of the specific environment variable
 echo $Variable - prints the value of the regular variable
 If you want to store the variables next time when you open the environment you have to add them to the .bashrc script:
 
-Opening the script with nano
-To open the script with the nano editor, use the following command:
 
-Copy code
-nano .bashrc
-Important note
-This is a system script and it is important that you do not change any of the existing code. To be safe, scroll to the bottom of the script and add your new code there.
-
-Creating an environment variable
-To create an environment variable, type the following command:
-
-arduino
-Copy code
-export Variable=Value
-Replace Variable with the name of your variable and Value with the value you want to assign to it.
-
-Checking if the variable exists
-To check if your variable exists, use the following command:
-
-bash
-Copy code
-printenv Variable
-Note that the variable is not being added yet. You need to restart the environment or restart the script for it to be added.
-
-Reusing the script
-To reuse the script, use the following command:
-
-bash
-Copy code
-source .bashrc
-After that, your variable will be added to the environment.
