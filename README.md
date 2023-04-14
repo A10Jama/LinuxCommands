@@ -51,3 +51,14 @@ chmod [permission] [directory]/[file]  : change the permissions of the specified
 exit  : exit or close the current shell or terminal session.
 
 clear  :  clear the terminal screen.
+
+## Make an environment
+
+`printenv`: Prints all environment variables.
+`env`: Displays all current environment variables and their values.
+`printenv variable_name`: Prints the value of the specified environment variable.
+`echo $"variable_name`: Prints the value of the specified environment variable.
+`export LAST_NAME=Jama`: Creates a new environment variable called LAST_NAME with a value of Jama.
+`ls -a`: Lists all files in the current directory, including hidden files.
+`sudo nano .bashrc`: Opens the .bashrc file for editing with elevated privileges using the nano editor.
+`source .bashrc`: refreshes the .bashrc file, which applies any changes made to it.
